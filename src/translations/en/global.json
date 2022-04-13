@@ -1,0 +1,21 @@
+{
+  "header" : {
+    "skills" : "Skills",
+    "projects": "Projects",
+    "hobbies" : "Hobbies",
+    "contact" : "Contact"
+  },
+  "home": {
+    "hi": "Hello, I am,",
+    "name": "Juan Valencia Ol.",
+    "descrip": "I am an IT engineer, currently living in Mexico, for me is a great passion to learn and develop new technology on a daily basis, I enjoy all the process that I do with it, learn from my mistakes and take new challenges. It was during college that I discovered my love and interest for FrontEnd.",
+    "button": "Download CV"
+  },
+  "card": {
+    "title1": "Fronend Development",
+    "title2": "Backend Development",
+    "experience1": "Basic",
+    "experience2": "Intermediate",
+    "experience3": "Advanced"
+  }
+}

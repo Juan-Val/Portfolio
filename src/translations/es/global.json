@@ -1,0 +1,21 @@
+{
+  "header" : {
+    "skills" : "Habilidades",
+    "projects": "Proyectos",
+    "hobbies" : "Pasatiempos",
+    "contact" : "Contacto"
+  },
+  "home": {
+    "hi": "Hola soy,",
+    "name": "Juan Valencia Ol.",
+    "descrip": "Soy un ingeniero en Tecnologías de la Información, vivo actualmente en México, para mi es una gran pasión el aprender y desarrollar nueva tecnología en el dia a dia, disfruto todo el proceso que esto con ella, aprender de mi errores y tomar nuevos retos. Fue durante la universidad que descubrí mi amor e interés por el FrontEnd.",
+    "button": "Descargar CV"
+  },
+  "card": {
+    "title1": "Desarrollo Fronend",
+    "title2": "Desarrollo Backend",
+    "experience1": "Básico",
+    "experience2": "Intermedio",
+    "experience3": "Avanzado"
+  }
+}
