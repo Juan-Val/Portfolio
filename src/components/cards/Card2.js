@@ -6,7 +6,7 @@ export const Card2 = () => {
   const [t] = useTranslation("global");
 
   return (
-    <div className="card">
+    <div className="card ">
           <h3>{t("card.title2")}</h3>
           <div className="skills">
             <div className="skill">

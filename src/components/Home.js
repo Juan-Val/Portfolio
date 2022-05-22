@@ -6,7 +6,7 @@ export const Home = () => {
   const [t,i18n] = useTranslation("global");
 
   return (
-    <div className='container home'>
+    <div className='container home '>
       <div>
       <p>{t("home.hi")}</p>
       <h1>{t("home.name")}</h1>

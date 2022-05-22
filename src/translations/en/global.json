@@ -17,5 +17,12 @@
     "experience1": "Basic",
     "experience2": "Intermediate",
     "experience3": "Advanced"
+  },
+  "contact": {
+    "title": "Contact",
+    "email": "Email",
+    "send": "Contact",
+    "linkedin": "Linkedin",
+    "github": "Github"
   }
 }

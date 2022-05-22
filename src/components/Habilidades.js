@@ -9,11 +9,11 @@ export const Habilidades = () => {
   const [t] = useTranslation("global");
 
   return (
-    <div className='container habilidades' id="habilidades">
+    <div className='container habilidades  ' id="habilidades">
       <h1>{t("header.skills")}</h1>
 
       <div className="habilidades__cards">
-        <Card1 />
+        <Card1/>
         <Card2 />
       
       </div>
