@@ -5,9 +5,9 @@
 
 :root {
   --background--color--black: #1F1F1F;
-  --color--border: #4f36aa;
+  --color--border: #2541b2;
   --text--color--white: #ffffff;
-  --text--color-link: #544C71;
+  --text--color-link: #1768ac;
 
   /* Fonts */
 
@@ -28,7 +28,7 @@ body{
 
 /* Header Styles */
 .header{
-  background-color: var(--background--color--black);
+  background-color: var(--background--color--white);
   display: flex;
   justify-content: space-between;
   padding-left:5rem;
@@ -165,9 +165,9 @@ body{
 }
 .home__button button{
   background: none;
-  border-radius: 5px;
+  border-radius: 99999px;
   border:  3px solid var(--color--border);
-  padding: 0.5rem;
+  padding: 10px 18px;
   transition: 0.5s all ease-in;
 }
 .home__button button a{
@@ -179,7 +179,7 @@ body{
  cursor: pointer;
 }
 .home__img{
-  margin: 1rem;
+  margin-left: 3rem;
 }
 .home__img img{
   border-radius: 150px;
@@ -246,7 +246,7 @@ body{
   text-align: center;
 }
 .card{
-  border-radius: 25px;
+  border-radius: 15px;
   border: 2px solid var(--color--border);
   overflow: hidden;
   padding: 1rem;
@@ -254,33 +254,31 @@ body{
   width: 45%;
 }
 .card h3{
-  font-size: var(--font--text--subtitle);
+  font-size: var(--font--text--title  );
 }
 .card:hover{
   background-color: var(--text--color-link);
 }
 
 .skills{
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .skill{
-  display:flex;
-  flex-wrap: wrap;
-  line-height: 0;
   margin: 1rem;
-  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 6px;
 }
 .skill i {
-  font-size: var(--font--text--subtitle);
+  font-size: var(--font--text--title);
 }
 .skill h3{
-  margin: 10px;
-  font-size: var(--font--text--subtitle);
-}
-.skill p{
-  margin-left: 1.5rem;
-  font-size: var(--font--text--details);
+  margin: 5px;
+  font-size: var(--font--text--regular);
 }
 
 @media only screen and (max-width: 1200px) {
@@ -293,10 +291,6 @@ body{
   }
   .skill h3{
     margin: 5px;
-  }
-  .skill p{
-    margin-left: 1rem;
-    font-size: var(--font--text--details);
   }
 }
 @media only screen and (max-width: 870px) {
@@ -311,7 +305,7 @@ body{
     width: 80%;
   }
   .card h3{
-    font-size: var(--font--text--subtitle);
+    font-size: var(--font--text--title);
   }
   .card:hover{
     background-color: var(--text--color-link);
@@ -326,47 +320,40 @@ body{
     flex-wrap: wrap;
     line-height: 0;
     margin: 1rem;
-    padding: 10px;
+    padding: 5px;
   }
   .skill i {
-    font-size: var(--font--text--subtitle);
+    font-size: var(--font--text--regular);
   }
   .skill h3{
-    margin: 10px;
-    font-size: var(--font--text--subtitle);
+    margin: 5px;
+    font-size: var(--font--text--regular);
   }
-  .skill p{
-    margin-left: 1.5rem;
-    font-size: var(--font--text--details);
-  }
-  
 }
 @media only screen and (max-width: 768px) {
+
   .card{
     justify-items: center;
-    width: 80%;
+    width: 100%;
   }  
   .skill{
     margin:5px;
-    padding: 0.5rem;
+    padding: 0.4rem;
   }
   .skill h3{
     margin: 5px;
   }
-  .skill p{
-    margin-left: 1rem;
-    font-size: var(--font--text--details);
-  }
 } 
 @media only screen and (max-width: 600px) {
   .skills{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
+    display: flex;
+    flex-wrap: wrap;
+   flex-direction: row;
   }
-}
 
+}
 .proyecto{
-  padding-top: 8rem;
+  padding-top: 10rem;
 }
 .proyecto h1{
   font-size:var(--font--text--title);
@@ -374,40 +361,46 @@ body{
 }
 .container__proyectos{
   display: grid;
+  padding-top: 2rem;
   grid-template-columns: repeat(3,1fr);
+ 
 }
 
 .proyect{
-  border-radius: 25px;
-  border: 4px solid var(--color--border);
-  height: auto;
-  margin-bottom: 3rem;
+  border-radius: 5px;
+  border: 2px solid var(--color--border);
+  height: 450px;
+  margin-bottom: 2rem;
   margin-left: auto;
   margin-right: auto;
-  overflow: hidden;
-  padding: 1rem;
+  padding: 10px;
   transition: 0.5s all ease-in;
   width: 80%;
 }
 .proyect img{
-  border-radius: 15px ;
+  /* border-radius: 10px ; */
   object-fit: cover;
   width: 100%;
+  height: 300px;
 }
 .proyect h4{
   font-size: var(--font--text--subtitle);
 }
 .proyect__buttons{
+  bottom: 0;
   display: flex;
   justify-content: space-around;
-  margin-top: 1rem;
+  position: relative;
 }
+
 .proyect__buttons a{
-  border-radius: 15px;
+  border-radius: 99999px;
   border: 2px solid var(--color--border);
+  bottom: 0;
   color: var(--text--color--white);
   font-size: var(--font--text--details);
-  padding: 1rem;
+  padding: 6px 15px;
+  position: relative;
   text-decoration: none;
   transition: 0.5s all ease-in;
 }
@@ -425,7 +418,7 @@ body{
     grid-template-columns: repeat(2,1fr);
   }
   .proyect__buttons a{
-    padding: 0.7rem;
+    padding: 10px 15px;
   }
 } 
 @media only screen and (max-width: 600px) {
@@ -434,12 +427,11 @@ body{
     grid-template-columns: repeat(1,1fr);
   }
   .proyect__buttons a{
-    padding: 1rem;
+    padding: 10px 15px;
   }
 }
 .contact{
-  padding-top: 8rem;
-  padding-bottom: 5rem;
+  padding-top: 5  rem;
   text-align: center;
 }
 .contact h1{
@@ -451,27 +443,24 @@ body{
   display:flex;
   flex-direction: row;
   justify-content: space-around;
-  padding: 1rem;
 }
 .contact__card{
-  border-radius: 1rem;
-  border:4px solid  var(--text--color-link);
   line-height: 2rem;
   padding: 2rem;
   width: 20%;
 }
 .contact__card i{
-  font-size: var(--font--text--header);
+  font-size: var(--font--text--title);
 }
 .contact__card h3{
   font-size: var(--font--text--subtitle);
 }
 .contact__card a{
-  border-radius: 1rem;
+  border-radius: 99999px;
   border: 2px solid var(--text--color-link);
   color: var(--text--color--white);
   font-size: var(--font--text--regular);
-  padding: 0.5rem;
+  padding: 6px 15px;
   text-decoration: none;
   transition: all 0.5s ease-in;
 }

@@ -24,5 +24,9 @@
     "send": "Contactar",
     "linkedin": "Linkedin",
     "github": "Github"
+  },
+  "proyects": {
+    "title": "Proyectos",
+    "descrip": "Aquí se muestran algunos de mis proyectos, si deseas ver más de ellos, puedes verlos en mi Github."
   }
 }
