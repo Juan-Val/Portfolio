@@ -1,4 +1,3 @@
-import { motion, AnimatePresence } from "framer-motion";
 import React from "react";
 import { useTranslation } from "react-i18next";
 import img1 from "../asset/img/Clon-Pexels.png";
