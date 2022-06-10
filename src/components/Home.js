@@ -2,7 +2,7 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 
 import pdf from "../docs/CV.pdf";
-import img from "../asset/img/Juan.jpg";
+import img from "../asset/img/juan.jpg";
 
 export const Home = () => {
   const [t] = useTranslation("global");
