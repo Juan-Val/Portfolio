@@ -1,7 +1,5 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import img1 from "../asset/img/Clon-Pexels.png";
-import img2 from "../asset/img/Pokemon-App.png";
 
 export const Proyects = () => {
   const [t] = useTranslation("global");
@@ -11,7 +9,10 @@ export const Proyects = () => {
       <h1>{t("proyects.title")}</h1>
       <div className="container__proyectos">
         <div className="proyect">
-          <img src={img1} alt="img" />
+          <img
+            src="https://user-images.githubusercontent.com/74631076/173156515-a17a41fe-1ccc-4493-b50b-1534c1426778.png"
+            alt="img"
+          />
           <h4>Clon Pexels</h4>
           <div className="proyect__buttons">
             <a
@@ -31,7 +32,10 @@ export const Proyects = () => {
           </div>
         </div>
         <div className="proyect">
-          <img src={img2} alt="img" />
+          <img
+            src="https://user-images.githubusercontent.com/74631076/173156636-444cfcd3-852b-47b1-babf-b82f7959404a.png"
+            alt="img"
+          />
           <h4>Poke App</h4>
           <div className="proyect__buttons">
             <a

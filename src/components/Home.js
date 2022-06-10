@@ -2,7 +2,6 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 
 import pdf from "../docs/CV.pdf";
-import img from "../asset/img/juan.jpg";
 
 export const Home = () => {
   const [t] = useTranslation("global");
@@ -23,7 +22,10 @@ export const Home = () => {
         </div>
       </div>
       <div className="home__img">
-        <img src={img} alt="img" />
+        <img
+          src="https://user-images.githubusercontent.com/74631076/173156609-bbab78ec-4d15-4c0f-8556-32d8383072c0.jpg"
+          alt="img"
+        />
       </div>
     </div>
   );
