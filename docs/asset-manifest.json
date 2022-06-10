@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.704cea91.css",
-    "main.js": "/static/js/main.e68228fa.js",
+    "main.js": "/static/js/main.8399f171.js",
     "static/media/Clon-Pexels.png": "/static/media/Clon-Pexels.8acdda8c70a82e2b7561.png",
     "static/media/Pokemon-App.png": "/static/media/Pokemon-App.40e2f2ee80c83f0b0f3b.png",
-    "static/media/Juan Valencia byn.jpg": "/static/media/Juan Valencia byn.834fd03b838d6b9ae137.jpg",
+    "static/media/Juan.jpg": "/static/media/Juan.834fd03b838d6b9ae137.jpg",
     "static/media/CV.pdf": "/static/media/CV.65868dcdcf5b460c7c3e.pdf",
     "index.html": "/index.html",
     "main.704cea91.css.map": "/static/css/main.704cea91.css.map",
-    "main.e68228fa.js.map": "/static/js/main.e68228fa.js.map"
+    "main.8399f171.js.map": "/static/js/main.8399f171.js.map"
   },
   "entrypoints": [
     "static/css/main.704cea91.css",
-    "static/js/main.e68228fa.js"
+    "static/js/main.8399f171.js"
   ]
 }
