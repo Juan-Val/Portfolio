@@ -4,10 +4,10 @@
 /* base */
 
 :root {
-  --background--color--black: #1F1F1F;
-  --color--border: #2541b2;
-  --text--color--white: #ffffff;
-  --text--color-link: #1768ac;
+  --background--color--black: #0f0e17;
+  --color--border: #ff8906;
+  --text--color--white: #dddeeb;
+  --text--color-link: #ff8906;
 
   /* Fonts */
 
@@ -28,7 +28,7 @@ body{
 
 /* Header Styles */
 .header{
-  background-color: var(--background--color--white);
+  background-color: var(--background--color--black);
   display: flex;
   justify-content: space-between;
   padding-left:5rem;
@@ -256,9 +256,6 @@ body{
 .card h3{
   font-size: var(--font--text--title  );
 }
-.card:hover{
-  background-color: var(--text--color-link);
-}
 
 .skills{
   display: flex;
@@ -367,23 +364,24 @@ body{
 }
 
 .proyect{
-  border-radius: 5px;
   border: 2px solid var(--color--border);
+  border-radius: 5px;
   height: 450px;
   margin-bottom: 2rem;
   margin-left: auto;
   margin-right: auto;
-  padding: 10px;
+  padding: 20px;
   transition: 0.5s all ease-in;
   width: 80%;
 }
 .proyect img{
-  /* border-radius: 10px ; */
+  border-radius: 5px ;
   object-fit: cover;
   width: 100%;
   height: 300px;
 }
 .proyect h4{
+  color: var(--text--color--white);
   font-size: var(--font--text--subtitle);
 }
 .proyect__buttons{
@@ -394,18 +392,16 @@ body{
 }
 
 .proyect__buttons a{
-  border-radius: 99999px;
+  color: #ffffff;
+  background-color: var(--color--border) ;
+  border-radius: 5px;
   border: 2px solid var(--color--border);
   bottom: 0;
-  color: var(--text--color--white);
   font-size: var(--font--text--details);
   padding: 6px 15px;
   position: relative;
   text-decoration: none;
   transition: 0.5s all ease-in;
-}
-.proyect__buttons a:hover{
-  background-color: var(--text--color-link);
 }
 @media only screen and (max-width: 992px) {
   .proyect h4{

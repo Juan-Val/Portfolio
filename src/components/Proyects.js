@@ -54,6 +54,29 @@ export const Proyects = () => {
             </a>
           </div>
         </div>
+        <div className="proyect">
+          <img
+            src="https://user-images.githubusercontent.com/74631076/174636765-b80a622b-3aed-4812-a648-11121376875e.png"
+            alt="img"
+          />
+          <h4>Notes app</h4>
+          <div className="proyect__buttons">
+            <a
+              href="https://github.com/Juan-Val/Notes"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github
+            </a>
+            <a
+              href="https://jovial-rolypoly-fc760f.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Demo
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   );
