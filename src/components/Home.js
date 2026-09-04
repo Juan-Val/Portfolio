@@ -1,7 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 
-import pdf from "../docs/CV.pdf";
+import pdf from "../docs/CV-2026.pdf";
 
 export const Home = () => {
   const [t] = useTranslation("global");
